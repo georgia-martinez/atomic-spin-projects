@@ -23,8 +23,10 @@ class DrumMachine:
     def play(self, measure):
         while True:
             for beat in range(len(measure)):
-                if measure[beat] != 0:
-                    self.sound_map[measure[beat]].play()
+                sound_idx = measure[beat]
+
+                if sound_idx != 0:
+                    self.sound_map[sound_idx].play()
 
                 time.sleep(self.pause)
 
@@ -32,10 +34,10 @@ if __name__ == "__main__":
     drum_machine = DrumMachine()
 
     measure = [
-        3, 1, 1, 1,
-        2, 1, 1, 3,
-        1, 3, 1, 3,
-        2, 1, 1, 1,
+        3, 0, 1, 0,
+        2, 0, 1, 0,
+        3, 0, 1, 0,
+        2, 0, 1, 0,
     ]
 
     drum_machine.play(measure)

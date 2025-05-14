@@ -1,6 +1,6 @@
 # Atomic Spin Projects
 
-Hello hello! This repo contains all the code for any tutorials I have written about in my Spin posts. You can read through all the spin posts I've written here: (insert link).
+Hello hello! This repo contains all the code for any tutorials I have written about in my Spin posts. You can read through all the Spin posts I've written here: (insert link).
 
 ## Project Overview
 
