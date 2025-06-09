@@ -10,7 +10,7 @@ This repository contains all the code for any tutorials I have written about in 
  
 An overview of the marching cubes algorithm, along with a simple example demonstrating its use through scikit-learn's marching cubes function in Python
 
-* Spin post: Coming soon!
+* Spin post: https://spin.atomicobject.com/3d-meshes-marching-cubes/
 * Code: https://github.com/georgia-martinez/atomic-spin-projects/tree/main/project2_marching_cubes
 
 ### Make Sick Drum Beats With Python (1/31/25)
